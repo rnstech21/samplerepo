@@ -1,0 +1,61 @@
+2018-10-14 02:43:24,291 INFO [com.advice.controllers.LogInController] - Going to run Loggincontroller setform method
+2018-10-14 02:43:24,291 INFO [com.advice.controllers.LogInController] - Exiting Loggincontroller setform method
+2018-10-14 02:43:24,305 INFO [com.advice.controllers.LogInController] - Going to run LogInController initBinder method
+2018-10-14 02:43:26,941 INFO [com.advice.controllers.LogInController] - Going to run Loggincontroller captchProcessRequest method
+2018-10-14 02:43:27,360 INFO [com.advice.controllers.LogInController] -  Loggincontroller End of captchProcessRequest method
+2018-10-14 02:44:09,752 INFO [com.advice.controllers.LogInController] - Going to run Loggincontroller setform method
+2018-10-14 02:44:09,752 INFO [com.advice.controllers.LogInController] - Exiting Loggincontroller setform method
+2018-10-14 02:44:09,752 INFO [com.advice.controllers.LogInController] - Going to run LogInController initBinder method
+2018-10-14 02:44:10,095 INFO [com.advice.controllers.LogInController] - Going to run Loggincontroller captchProcessRequest method
+2018-10-14 02:44:10,109 INFO [com.advice.controllers.LogInController] -  Loggincontroller End of captchProcessRequest method
+2018-10-14 02:46:30,961 INFO [com.advice.controllers.LogInController] - Going to run Loggincontroller setform method
+2018-10-14 02:46:30,968 INFO [com.advice.controllers.LogInController] - Exiting Loggincontroller setform method
+2018-10-14 02:46:30,979 INFO [com.advice.controllers.LogInController] - Going to run LogInController initBinder method
+2018-10-14 02:46:32,002 INFO [com.advice.controllers.LogInController] - Going to run Loggincontroller captchProcessRequest method
+2018-10-14 02:46:32,015 INFO [com.advice.controllers.LogInController] -  Loggincontroller End of captchProcessRequest method
+2018-10-14 03:33:28,832 INFO [com.advice.controllers.LogInController] - Going to run Loggincontroller setform method
+2018-10-14 03:33:28,832 INFO [com.advice.controllers.LogInController] - Exiting Loggincontroller setform method
+2018-10-14 03:33:28,834 INFO [com.advice.controllers.LogInController] - Going to run LogInController initBinder method
+2018-10-14 03:33:29,405 INFO [com.advice.controllers.LogInController] - Going to run Loggincontroller captchProcessRequest method
+2018-10-14 03:33:29,415 INFO [com.advice.controllers.LogInController] -  Loggincontroller End of captchProcessRequest method
+2018-10-14 03:36:32,858 INFO [com.advice.controllers.LogInController] - Going to run Loggincontroller setform method
+2018-10-14 03:36:32,858 INFO [com.advice.controllers.LogInController] - Exiting Loggincontroller setform method
+2018-10-14 03:36:32,859 INFO [com.advice.controllers.LogInController] - Going to run LogInController initBinder method
+2018-10-14 03:36:33,413 INFO [com.advice.controllers.LogInController] - Going to run Loggincontroller captchProcessRequest method
+2018-10-14 03:36:33,427 INFO [com.advice.controllers.LogInController] -  Loggincontroller End of captchProcessRequest method
+2018-10-17 01:21:15,252 INFO [com.advice.controllers.LogInController] - Going to run Loggincontroller setform method
+2018-10-17 01:21:15,259 INFO [com.advice.controllers.LogInController] - Exiting Loggincontroller setform method
+2018-10-17 01:21:15,277 INFO [com.advice.controllers.LogInController] - Going to run LogInController initBinder method
+2018-10-17 01:21:16,677 INFO [com.advice.controllers.LogInController] - Going to run Loggincontroller captchProcessRequest method
+2018-10-17 01:21:17,176 INFO [com.advice.controllers.LogInController] -  Loggincontroller End of captchProcessRequest method
+2018-10-17 01:38:46,432 INFO [com.advice.controllers.LogInController] - Going to run Loggincontroller setform method
+2018-10-17 01:38:46,432 INFO [com.advice.controllers.LogInController] - Exiting Loggincontroller setform method
+2018-10-17 01:38:46,433 INFO [com.advice.controllers.LogInController] - Going to run LogInController initBinder method
+2018-10-17 01:38:48,231 INFO [com.advice.controllers.LogInController] - Going to run Loggincontroller captchProcessRequest method
+2018-10-17 01:38:48,239 INFO [com.advice.controllers.LogInController] -  Loggincontroller End of captchProcessRequest method
+2018-10-17 01:49:15,385 INFO [com.advice.controllers.LogInController] - Going to run Loggincontroller setform method
+2018-10-17 01:49:15,385 INFO [com.advice.controllers.LogInController] - Exiting Loggincontroller setform method
+2018-10-17 01:49:15,386 INFO [com.advice.controllers.LogInController] - Going to run LogInController initBinder method
+2018-10-17 02:11:17,422 INFO [com.advice.controllers.LogInController] - Going to run Loggincontroller setform method
+2018-10-17 02:11:17,422 INFO [com.advice.controllers.LogInController] - Exiting Loggincontroller setform method
+2018-10-17 02:11:17,423 INFO [com.advice.controllers.LogInController] - Going to run LogInController initBinder method
+2018-10-17 02:11:18,063 INFO [com.advice.controllers.LogInController] - Going to run Loggincontroller captchProcessRequest method
+2018-10-17 02:11:18,082 INFO [com.advice.controllers.LogInController] -  Loggincontroller End of captchProcessRequest method
+2018-10-17 02:28:49,601 INFO [com.advice.controllers.LogInController] - Going to run Loggincontroller setform method
+2018-10-17 02:28:49,601 INFO [com.advice.controllers.LogInController] - Exiting Loggincontroller setform method
+2018-10-17 02:28:49,601 INFO [com.advice.controllers.LogInController] - Going to run LogInController initBinder method
+2018-10-17 02:28:50,179 INFO [com.advice.controllers.LogInController] - Going to run Loggincontroller captchProcessRequest method
+2018-10-17 02:28:50,195 INFO [com.advice.controllers.LogInController] -  Loggincontroller End of captchProcessRequest method
+2018-10-17 02:39:18,432 INFO [com.advice.controllers.LogInController] - Going to run Loggincontroller setform method
+2018-10-17 02:39:18,432 INFO [com.advice.controllers.LogInController] - Exiting Loggincontroller setform method
+2018-10-17 02:39:18,432 INFO [com.advice.controllers.LogInController] - Going to run LogInController initBinder method
+2018-10-17 03:01:19,396 INFO [com.advice.controllers.LogInController] - Going to run Loggincontroller setform method
+2018-10-17 03:01:19,396 INFO [com.advice.controllers.LogInController] - Exiting Loggincontroller setform method
+2018-10-17 03:01:19,396 INFO [com.advice.controllers.LogInController] - Going to run LogInController initBinder method
+2018-10-17 03:01:19,994 INFO [com.advice.controllers.LogInController] - Going to run Loggincontroller captchProcessRequest method
+2018-10-17 03:01:20,012 INFO [com.advice.controllers.LogInController] -  Loggincontroller End of captchProcessRequest method
+2018-10-17 03:18:51,407 INFO [com.advice.controllers.LogInController] - Going to run Loggincontroller setform method
+2018-10-17 03:18:51,407 INFO [com.advice.controllers.LogInController] - Exiting Loggincontroller setform method
+2018-10-17 03:18:51,408 INFO [com.advice.controllers.LogInController] - Going to run LogInController initBinder method
+2018-10-17 03:18:51,964 INFO [com.advice.controllers.LogInController] - Going to run Loggincontroller captchProcessRequest method
+2018-10-17 03:18:51,975 INFO [com.advice.controllers.LogInController] -  Loggincontroller End of captchProcessRequest method

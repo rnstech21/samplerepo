@@ -1,0 +1,12 @@
+---
+# tasks file for stop
+- name: Stop the sandbox instances
+  ec2:
+   aws_access_key: "{{ accesskey }}"
+   aws_secret_key: "{{ secretkey }}"
+   instance_ids: '{{ instance_ids }}'
+   region: '{{ region }}'
+   state: running
+   wait: True
+   vpc_subnet_id: subnet-9979a0c5
+   assign_public_ip: yes

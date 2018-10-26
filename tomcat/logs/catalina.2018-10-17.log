@@ -1,0 +1,76 @@
+17-Oct-2018 01:20:38.437 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+17-Oct-2018 01:20:38.438 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8888"]
+17-Oct-2018 01:20:38.438 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+17-Oct-2018 01:20:38.440 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+17-Oct-2018 01:20:38.616 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8888"]
+17-Oct-2018 01:20:38.619 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+17-Oct-2018 01:20:38.620 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8888"]
+17-Oct-2018 01:20:38.621 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+17-Oct-2018 01:20:42.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.53
+17-Oct-2018 01:20:42.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 29 2018 14:42:45 UTC
+17-Oct-2018 01:20:42.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.53.0
+17-Oct-2018 01:20:42.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+17-Oct-2018 01:20:42.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.13.0-158-generic
+17-Oct-2018 01:20:42.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+17-Oct-2018 01:20:42.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-oracle/jre
+17-Oct-2018 01:20:42.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_181-b13
+17-Oct-2018 01:20:42.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Oct-2018 01:20:42.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /root/tomcat
+17-Oct-2018 01:20:42.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /root/tomcat
+17-Oct-2018 01:20:42.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/root/tomcat/conf/logging.properties
+17-Oct-2018 01:20:42.433 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Oct-2018 01:20:42.433 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Oct-2018 01:20:42.433 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Oct-2018 01:20:42.433 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+17-Oct-2018 01:20:42.433 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/root/tomcat
+17-Oct-2018 01:20:42.433 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/root/tomcat
+17-Oct-2018 01:20:42.433 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/root/tomcat/temp
+17-Oct-2018 01:20:42.433 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+17-Oct-2018 01:20:42.828 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8888"]
+17-Oct-2018 01:20:42.892 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Oct-2018 01:20:42.894 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+17-Oct-2018 01:20:42.903 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Oct-2018 01:20:42.904 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1339 ms
+17-Oct-2018 01:20:42.963 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+17-Oct-2018 01:20:42.964 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.53
+17-Oct-2018 01:20:43.021 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /root/tomcat/webapps/LoginApp.war
+17-Oct-2018 01:20:46.156 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Oct-2018 01:20:47.936 INFO [localhost-startStop-1] com.mongodb.diagnostics.logging.JULLogger.log Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=50}
+17-Oct-2018 01:20:48.012 INFO [cluster-ClusterId{value='5bc68e6fbf2cc976c96df5f8', description='null'}-localhost:27017] com.mongodb.diagnostics.logging.JULLogger.log Exception in monitor thread while connecting to server localhost:27017
+ com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:63)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:114)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:128)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:50)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:58)
+	... 3 more
+
+17-Oct-2018 01:20:49.358 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /root/tomcat/webapps/LoginApp.war has finished in 6,337 ms
+17-Oct-2018 01:20:49.359 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /root/tomcat/webapps/manager
+17-Oct-2018 01:20:49.418 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /root/tomcat/webapps/manager has finished in 59 ms
+17-Oct-2018 01:20:49.427 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /root/tomcat/webapps/host-manager
+17-Oct-2018 01:20:49.463 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /root/tomcat/webapps/host-manager has finished in 36 ms
+17-Oct-2018 01:20:49.463 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /root/tomcat/webapps/examples
+17-Oct-2018 01:20:49.804 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /root/tomcat/webapps/examples has finished in 341 ms
+17-Oct-2018 01:20:49.813 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /root/tomcat/webapps/docs
+17-Oct-2018 01:20:49.845 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /root/tomcat/webapps/docs has finished in 33 ms
+17-Oct-2018 01:20:49.845 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /root/tomcat/webapps/ROOT
+17-Oct-2018 01:20:49.872 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /root/tomcat/webapps/ROOT has finished in 26 ms
+17-Oct-2018 01:20:49.877 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8888"]
+17-Oct-2018 01:20:49.908 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+17-Oct-2018 01:20:49.923 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 7018 ms
+17-Oct-2018 03:23:01.740 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8888"]
+17-Oct-2018 03:23:01.748 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+17-Oct-2018 03:23:01.749 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+17-Oct-2018 03:23:01.891 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8888"]
+17-Oct-2018 03:23:01.893 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+17-Oct-2018 03:23:01.895 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8888"]
+17-Oct-2018 03:23:01.895 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

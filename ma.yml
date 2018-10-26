@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  connection: local
+  environment:
+     accesskey: AKIAIM5XBV2I5SJNXRBA
+     secretkey: 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
+  roles:
+    - role: stop

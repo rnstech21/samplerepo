@@ -1,0 +1,392 @@
+14-Oct-2018 02:30:59.306 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.53
+14-Oct-2018 02:30:59.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 29 2018 14:42:45 UTC
+14-Oct-2018 02:30:59.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.53.0
+14-Oct-2018 02:30:59.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+14-Oct-2018 02:30:59.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.13.0-158-generic
+14-Oct-2018 02:30:59.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+14-Oct-2018 02:30:59.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-oracle/jre
+14-Oct-2018 02:30:59.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_181-b13
+14-Oct-2018 02:30:59.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+14-Oct-2018 02:30:59.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /root/tomcat
+14-Oct-2018 02:30:59.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /root/tomcat
+14-Oct-2018 02:30:59.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/root/tomcat/conf/logging.properties
+14-Oct-2018 02:30:59.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Oct-2018 02:30:59.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-Oct-2018 02:30:59.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Oct-2018 02:30:59.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+14-Oct-2018 02:30:59.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/root/tomcat
+14-Oct-2018 02:30:59.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/root/tomcat
+14-Oct-2018 02:30:59.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/root/tomcat/temp
+14-Oct-2018 02:30:59.318 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+14-Oct-2018 02:30:59.612 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+14-Oct-2018 02:30:59.640 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+14-Oct-2018 02:30:59.647 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+14-Oct-2018 02:30:59.659 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+14-Oct-2018 02:30:59.660 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1129 ms
+14-Oct-2018 02:30:59.709 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+14-Oct-2018 02:30:59.709 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.53
+14-Oct-2018 02:30:59.731 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /root/tomcat/webapps/manager
+14-Oct-2018 02:31:00.438 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /root/tomcat/webapps/manager has finished in 706 ms
+14-Oct-2018 02:31:00.438 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /root/tomcat/webapps/host-manager
+14-Oct-2018 02:31:00.492 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /root/tomcat/webapps/host-manager has finished in 54 ms
+14-Oct-2018 02:31:00.494 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /root/tomcat/webapps/examples
+14-Oct-2018 02:31:00.928 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /root/tomcat/webapps/examples has finished in 435 ms
+14-Oct-2018 02:31:00.931 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /root/tomcat/webapps/docs
+14-Oct-2018 02:31:00.967 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /root/tomcat/webapps/docs has finished in 36 ms
+14-Oct-2018 02:31:00.967 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /root/tomcat/webapps/ROOT
+14-Oct-2018 02:31:01.001 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /root/tomcat/webapps/ROOT has finished in 34 ms
+14-Oct-2018 02:31:01.008 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-Oct-2018 02:31:01.033 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+14-Oct-2018 02:31:01.051 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1390 ms
+14-Oct-2018 02:39:36.706 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+14-Oct-2018 02:39:36.707 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-Oct-2018 02:39:36.713 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+14-Oct-2018 02:39:36.714 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+14-Oct-2018 02:39:36.775 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-Oct-2018 02:39:36.776 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+14-Oct-2018 02:39:36.777 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+14-Oct-2018 02:39:36.778 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+14-Oct-2018 02:39:40.994 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.53
+14-Oct-2018 02:39:41.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 29 2018 14:42:45 UTC
+14-Oct-2018 02:39:41.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.53.0
+14-Oct-2018 02:39:41.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+14-Oct-2018 02:39:41.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.13.0-158-generic
+14-Oct-2018 02:39:41.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+14-Oct-2018 02:39:41.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-oracle/jre
+14-Oct-2018 02:39:41.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_181-b13
+14-Oct-2018 02:39:41.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+14-Oct-2018 02:39:41.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /root/tomcat
+14-Oct-2018 02:39:41.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /root/tomcat
+14-Oct-2018 02:39:41.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/root/tomcat/conf/logging.properties
+14-Oct-2018 02:39:41.012 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Oct-2018 02:39:41.012 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-Oct-2018 02:39:41.012 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Oct-2018 02:39:41.012 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+14-Oct-2018 02:39:41.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/root/tomcat
+14-Oct-2018 02:39:41.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/root/tomcat
+14-Oct-2018 02:39:41.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/root/tomcat/temp
+14-Oct-2018 02:39:41.013 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+14-Oct-2018 02:39:41.281 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8888"]
+14-Oct-2018 02:39:41.301 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+14-Oct-2018 02:39:41.313 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+14-Oct-2018 02:39:41.327 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+14-Oct-2018 02:39:41.328 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1107 ms
+14-Oct-2018 02:39:41.378 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+14-Oct-2018 02:39:41.383 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.53
+14-Oct-2018 02:39:41.395 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /root/tomcat/webapps/manager
+14-Oct-2018 02:39:42.068 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /root/tomcat/webapps/manager has finished in 673 ms
+14-Oct-2018 02:39:42.070 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /root/tomcat/webapps/host-manager
+14-Oct-2018 02:39:42.113 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /root/tomcat/webapps/host-manager has finished in 43 ms
+14-Oct-2018 02:39:42.115 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /root/tomcat/webapps/examples
+14-Oct-2018 02:39:42.571 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /root/tomcat/webapps/examples has finished in 456 ms
+14-Oct-2018 02:39:42.575 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /root/tomcat/webapps/docs
+14-Oct-2018 02:39:42.604 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /root/tomcat/webapps/docs has finished in 29 ms
+14-Oct-2018 02:39:42.607 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /root/tomcat/webapps/ROOT
+14-Oct-2018 02:39:42.640 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /root/tomcat/webapps/ROOT has finished in 33 ms
+14-Oct-2018 02:39:42.644 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8888"]
+14-Oct-2018 02:39:42.675 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+14-Oct-2018 02:39:42.680 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1352 ms
+14-Oct-2018 02:42:22.694 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /root/tomcat/webapps/LoginApp.war
+14-Oct-2018 02:42:25.304 INFO [localhost-startStop-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+14-Oct-2018 02:42:26.846 INFO [localhost-startStop-2] com.mongodb.diagnostics.logging.JULLogger.log Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=50}
+14-Oct-2018 02:42:26.921 INFO [cluster-ClusterId{value='5bc2ad12bf2cc9283edb9305', description='null'}-localhost:27017] com.mongodb.diagnostics.logging.JULLogger.log Exception in monitor thread while connecting to server localhost:27017
+ com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:63)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:114)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:128)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:50)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:58)
+	... 3 more
+
+14-Oct-2018 02:42:27.913 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /root/tomcat/webapps/LoginApp.war has finished in 5,218 ms
+14-Oct-2018 02:43:02.674 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+14-Oct-2018 02:43:02.674 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8888"]
+14-Oct-2018 02:43:02.679 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+14-Oct-2018 02:43:02.679 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+14-Oct-2018 02:43:02.786 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8888"]
+14-Oct-2018 02:43:02.851 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+14-Oct-2018 02:43:02.852 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8888"]
+14-Oct-2018 02:43:02.853 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+14-Oct-2018 02:43:06.398 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.53
+14-Oct-2018 02:43:06.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 29 2018 14:42:45 UTC
+14-Oct-2018 02:43:06.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.53.0
+14-Oct-2018 02:43:06.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+14-Oct-2018 02:43:06.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.13.0-158-generic
+14-Oct-2018 02:43:06.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+14-Oct-2018 02:43:06.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-oracle/jre
+14-Oct-2018 02:43:06.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_181-b13
+14-Oct-2018 02:43:06.407 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+14-Oct-2018 02:43:06.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /root/tomcat
+14-Oct-2018 02:43:06.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /root/tomcat
+14-Oct-2018 02:43:06.409 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/root/tomcat/conf/logging.properties
+14-Oct-2018 02:43:06.409 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Oct-2018 02:43:06.409 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-Oct-2018 02:43:06.409 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Oct-2018 02:43:06.410 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+14-Oct-2018 02:43:06.410 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/root/tomcat
+14-Oct-2018 02:43:06.410 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/root/tomcat
+14-Oct-2018 02:43:06.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/root/tomcat/temp
+14-Oct-2018 02:43:06.411 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+14-Oct-2018 02:43:06.718 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8888"]
+14-Oct-2018 02:43:06.747 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+14-Oct-2018 02:43:06.755 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+14-Oct-2018 02:43:06.764 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+14-Oct-2018 02:43:06.771 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1146 ms
+14-Oct-2018 02:43:06.818 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+14-Oct-2018 02:43:06.818 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.53
+14-Oct-2018 02:43:06.884 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /root/tomcat/webapps/LoginApp.war
+14-Oct-2018 02:43:09.747 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+14-Oct-2018 02:43:11.415 INFO [localhost-startStop-1] com.mongodb.diagnostics.logging.JULLogger.log Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=50}
+14-Oct-2018 02:43:11.488 INFO [cluster-ClusterId{value='5bc2ad3fbf2cc92890386af2', description='null'}-localhost:27017] com.mongodb.diagnostics.logging.JULLogger.log Exception in monitor thread while connecting to server localhost:27017
+ com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:63)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:114)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:128)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:50)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:58)
+	... 3 more
+
+14-Oct-2018 02:43:12.779 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /root/tomcat/webapps/LoginApp.war has finished in 5,896 ms
+14-Oct-2018 02:43:12.784 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /root/tomcat/webapps/manager
+14-Oct-2018 02:43:12.885 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /root/tomcat/webapps/manager has finished in 101 ms
+14-Oct-2018 02:43:12.887 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /root/tomcat/webapps/host-manager
+14-Oct-2018 02:43:12.921 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /root/tomcat/webapps/host-manager has finished in 34 ms
+14-Oct-2018 02:43:12.923 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /root/tomcat/webapps/examples
+14-Oct-2018 02:43:13.188 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /root/tomcat/webapps/examples has finished in 265 ms
+14-Oct-2018 02:43:13.192 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /root/tomcat/webapps/docs
+14-Oct-2018 02:43:13.221 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /root/tomcat/webapps/docs has finished in 30 ms
+14-Oct-2018 02:43:13.222 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /root/tomcat/webapps/ROOT
+14-Oct-2018 02:43:13.264 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /root/tomcat/webapps/ROOT has finished in 42 ms
+14-Oct-2018 02:43:13.270 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8888"]
+14-Oct-2018 02:43:13.296 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+14-Oct-2018 02:43:13.319 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 6548 ms
+2018-10-14 02:43:24,291 INFO [com.advice.controllers.LogInController] - Going to run Loggincontroller setform method
+2018-10-14 02:43:24,291 INFO [com.advice.controllers.LogInController] - Exiting Loggincontroller setform method
+2018-10-14 02:43:24,305 INFO [com.advice.controllers.LogInController] - Going to run LogInController initBinder method
+2018-10-14 02:43:26,941 INFO [com.advice.controllers.LogInController] - Going to run Loggincontroller captchProcessRequest method
+2018-10-14 02:43:27,360 INFO [com.advice.controllers.LogInController] -  Loggincontroller End of captchProcessRequest method
+2018-10-14 02:44:09,752 INFO [com.advice.controllers.LogInController] - Going to run Loggincontroller setform method
+2018-10-14 02:44:09,752 INFO [com.advice.controllers.LogInController] - Exiting Loggincontroller setform method
+2018-10-14 02:44:09,752 INFO [com.advice.controllers.LogInController] - Going to run LogInController initBinder method
+2018-10-14 02:44:10,095 INFO [com.advice.controllers.LogInController] - Going to run Loggincontroller captchProcessRequest method
+2018-10-14 02:44:10,109 INFO [com.advice.controllers.LogInController] -  Loggincontroller End of captchProcessRequest method
+14-Oct-2018 02:44:42.688 INFO [http-nio-8888-exec-7] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+14-Oct-2018 02:44:44.029 INFO [http-nio-8888-exec-7] com.mongodb.diagnostics.logging.JULLogger.log Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=50}
+14-Oct-2018 02:44:44.104 INFO [cluster-ClusterId{value='5bc2ad9cbf2cc92890f4666c', description='null'}-localhost:27017] com.mongodb.diagnostics.logging.JULLogger.log Exception in monitor thread while connecting to server localhost:27017
+ com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:63)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:114)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:128)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:50)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:58)
+	... 3 more
+
+14-Oct-2018 02:44:50.647 INFO [http-nio-8888-exec-6] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/LoginApp]
+14-Oct-2018 02:46:21.438 INFO [http-nio-8888-exec-8] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /root/tomcat/webapps/LoginApp.war
+14-Oct-2018 02:46:23.694 INFO [http-nio-8888-exec-8] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+14-Oct-2018 02:46:24.953 INFO [http-nio-8888-exec-8] com.mongodb.diagnostics.logging.JULLogger.log Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=50}
+14-Oct-2018 02:46:25.032 INFO [cluster-ClusterId{value='5bc2ae00bf2cc9289020a1a8', description='null'}-localhost:27017] com.mongodb.diagnostics.logging.JULLogger.log Exception in monitor thread while connecting to server localhost:27017
+ com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:63)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:114)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:128)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:50)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:58)
+	... 3 more
+
+14-Oct-2018 02:46:25.883 INFO [http-nio-8888-exec-8] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /root/tomcat/webapps/LoginApp.war has finished in 4,442 ms
+2018-10-14 02:46:30,961 INFO [com.advice.controllers.LogInController] - Going to run Loggincontroller setform method
+2018-10-14 02:46:30,968 INFO [com.advice.controllers.LogInController] - Exiting Loggincontroller setform method
+2018-10-14 02:46:30,979 INFO [com.advice.controllers.LogInController] - Going to run LogInController initBinder method
+2018-10-14 02:46:32,002 INFO [com.advice.controllers.LogInController] - Going to run Loggincontroller captchProcessRequest method
+2018-10-14 02:46:32,015 INFO [com.advice.controllers.LogInController] -  Loggincontroller End of captchProcessRequest method
+2018-10-14 03:33:28,832 INFO [com.advice.controllers.LogInController] - Going to run Loggincontroller setform method
+2018-10-14 03:33:28,832 INFO [com.advice.controllers.LogInController] - Exiting Loggincontroller setform method
+2018-10-14 03:33:28,834 INFO [com.advice.controllers.LogInController] - Going to run LogInController initBinder method
+2018-10-14 03:33:29,405 INFO [com.advice.controllers.LogInController] - Going to run Loggincontroller captchProcessRequest method
+2018-10-14 03:33:29,415 INFO [com.advice.controllers.LogInController] -  Loggincontroller End of captchProcessRequest method
+2018-10-14 03:36:32,858 INFO [com.advice.controllers.LogInController] - Going to run Loggincontroller setform method
+2018-10-14 03:36:32,858 INFO [com.advice.controllers.LogInController] - Exiting Loggincontroller setform method
+2018-10-14 03:36:32,859 INFO [com.advice.controllers.LogInController] - Going to run LogInController initBinder method
+2018-10-14 03:36:33,413 INFO [com.advice.controllers.LogInController] - Going to run Loggincontroller captchProcessRequest method
+2018-10-14 03:36:33,427 INFO [com.advice.controllers.LogInController] -  Loggincontroller End of captchProcessRequest method
+14-Oct-2018 04:22:29.850 SEVERE [ajp-nio-8009-exec-11] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature 18245
+14-Oct-2018 05:16:00.968 INFO [http-nio-8888-exec-23] org.apache.coyote.http11.AbstractHttp11Processor.process Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+ java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.AbstractNioInputBuffer.parseRequestLine(AbstractNioInputBuffer.java:236)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1065)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1539)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1495)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+16-Oct-2018 09:56:14.190 SEVERE [ajp-nio-8009-exec-13] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature 18245
+16-Oct-2018 09:56:14.396 SEVERE [ajp-nio-8009-exec-14] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature 18245
+16-Oct-2018 09:56:14.596 SEVERE [ajp-nio-8009-exec-15] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature 18245
+16-Oct-2018 10:16:11.036 SEVERE [ajp-nio-8009-exec-16] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature 768
+16-Oct-2018 13:18:51.993 SEVERE [ajp-nio-8009-exec-17] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature 18245
+16-Oct-2018 23:54:52.490 SEVERE [ajp-nio-8009-exec-18] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature 18245
+16-Oct-2018 23:54:52.535 SEVERE [ajp-nio-8009-exec-20] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature 0
+17-Oct-2018 01:20:38.437 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+17-Oct-2018 01:20:38.438 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8888"]
+17-Oct-2018 01:20:38.438 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+17-Oct-2018 01:20:38.440 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+17-Oct-2018 01:20:38.616 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8888"]
+17-Oct-2018 01:20:38.619 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+17-Oct-2018 01:20:38.620 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8888"]
+17-Oct-2018 01:20:38.621 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+17-Oct-2018 01:20:42.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.53
+17-Oct-2018 01:20:42.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 29 2018 14:42:45 UTC
+17-Oct-2018 01:20:42.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.53.0
+17-Oct-2018 01:20:42.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+17-Oct-2018 01:20:42.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.13.0-158-generic
+17-Oct-2018 01:20:42.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+17-Oct-2018 01:20:42.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-oracle/jre
+17-Oct-2018 01:20:42.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_181-b13
+17-Oct-2018 01:20:42.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Oct-2018 01:20:42.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /root/tomcat
+17-Oct-2018 01:20:42.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /root/tomcat
+17-Oct-2018 01:20:42.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/root/tomcat/conf/logging.properties
+17-Oct-2018 01:20:42.433 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Oct-2018 01:20:42.433 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Oct-2018 01:20:42.433 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Oct-2018 01:20:42.433 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+17-Oct-2018 01:20:42.433 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/root/tomcat
+17-Oct-2018 01:20:42.433 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/root/tomcat
+17-Oct-2018 01:20:42.433 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/root/tomcat/temp
+17-Oct-2018 01:20:42.433 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+17-Oct-2018 01:20:42.828 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8888"]
+17-Oct-2018 01:20:42.892 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Oct-2018 01:20:42.894 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+17-Oct-2018 01:20:42.903 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Oct-2018 01:20:42.904 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1339 ms
+17-Oct-2018 01:20:42.963 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+17-Oct-2018 01:20:42.964 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.53
+17-Oct-2018 01:20:43.021 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /root/tomcat/webapps/LoginApp.war
+17-Oct-2018 01:20:46.156 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+17-Oct-2018 01:20:47.936 INFO [localhost-startStop-1] com.mongodb.diagnostics.logging.JULLogger.log Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=50}
+17-Oct-2018 01:20:48.012 INFO [cluster-ClusterId{value='5bc68e6fbf2cc976c96df5f8', description='null'}-localhost:27017] com.mongodb.diagnostics.logging.JULLogger.log Exception in monitor thread while connecting to server localhost:27017
+ com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:63)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:114)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:128)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:50)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:58)
+	... 3 more
+
+17-Oct-2018 01:20:49.358 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /root/tomcat/webapps/LoginApp.war has finished in 6,337 ms
+17-Oct-2018 01:20:49.359 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /root/tomcat/webapps/manager
+17-Oct-2018 01:20:49.418 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /root/tomcat/webapps/manager has finished in 59 ms
+17-Oct-2018 01:20:49.427 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /root/tomcat/webapps/host-manager
+17-Oct-2018 01:20:49.463 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /root/tomcat/webapps/host-manager has finished in 36 ms
+17-Oct-2018 01:20:49.463 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /root/tomcat/webapps/examples
+17-Oct-2018 01:20:49.804 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /root/tomcat/webapps/examples has finished in 341 ms
+17-Oct-2018 01:20:49.813 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /root/tomcat/webapps/docs
+17-Oct-2018 01:20:49.845 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /root/tomcat/webapps/docs has finished in 33 ms
+17-Oct-2018 01:20:49.845 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /root/tomcat/webapps/ROOT
+17-Oct-2018 01:20:49.872 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /root/tomcat/webapps/ROOT has finished in 26 ms
+17-Oct-2018 01:20:49.877 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8888"]
+17-Oct-2018 01:20:49.908 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+17-Oct-2018 01:20:49.923 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 7018 ms
+2018-10-17 01:21:15,252 INFO [com.advice.controllers.LogInController] - Going to run Loggincontroller setform method
+2018-10-17 01:21:15,259 INFO [com.advice.controllers.LogInController] - Exiting Loggincontroller setform method
+2018-10-17 01:21:15,277 INFO [com.advice.controllers.LogInController] - Going to run LogInController initBinder method
+2018-10-17 01:21:16,677 INFO [com.advice.controllers.LogInController] - Going to run Loggincontroller captchProcessRequest method
+2018-10-17 01:21:17,176 INFO [com.advice.controllers.LogInController] -  Loggincontroller End of captchProcessRequest method
+2018-10-17 01:38:46,432 INFO [com.advice.controllers.LogInController] - Going to run Loggincontroller setform method
+2018-10-17 01:38:46,432 INFO [com.advice.controllers.LogInController] - Exiting Loggincontroller setform method
+2018-10-17 01:38:46,433 INFO [com.advice.controllers.LogInController] - Going to run LogInController initBinder method
+2018-10-17 01:38:48,231 INFO [com.advice.controllers.LogInController] - Going to run Loggincontroller captchProcessRequest method
+2018-10-17 01:38:48,239 INFO [com.advice.controllers.LogInController] -  Loggincontroller End of captchProcessRequest method
+2018-10-17 01:49:15,385 INFO [com.advice.controllers.LogInController] - Going to run Loggincontroller setform method
+2018-10-17 01:49:15,385 INFO [com.advice.controllers.LogInController] - Exiting Loggincontroller setform method
+2018-10-17 01:49:15,386 INFO [com.advice.controllers.LogInController] - Going to run LogInController initBinder method
+2018-10-17 02:11:17,422 INFO [com.advice.controllers.LogInController] - Going to run Loggincontroller setform method
+2018-10-17 02:11:17,422 INFO [com.advice.controllers.LogInController] - Exiting Loggincontroller setform method
+2018-10-17 02:11:17,423 INFO [com.advice.controllers.LogInController] - Going to run LogInController initBinder method
+2018-10-17 02:11:18,063 INFO [com.advice.controllers.LogInController] - Going to run Loggincontroller captchProcessRequest method
+2018-10-17 02:11:18,082 INFO [com.advice.controllers.LogInController] -  Loggincontroller End of captchProcessRequest method
+2018-10-17 02:28:49,601 INFO [com.advice.controllers.LogInController] - Going to run Loggincontroller setform method
+2018-10-17 02:28:49,601 INFO [com.advice.controllers.LogInController] - Exiting Loggincontroller setform method
+2018-10-17 02:28:49,601 INFO [com.advice.controllers.LogInController] - Going to run LogInController initBinder method
+2018-10-17 02:28:50,179 INFO [com.advice.controllers.LogInController] - Going to run Loggincontroller captchProcessRequest method
+2018-10-17 02:28:50,195 INFO [com.advice.controllers.LogInController] -  Loggincontroller End of captchProcessRequest method
+2018-10-17 02:39:18,432 INFO [com.advice.controllers.LogInController] - Going to run Loggincontroller setform method
+2018-10-17 02:39:18,432 INFO [com.advice.controllers.LogInController] - Exiting Loggincontroller setform method
+2018-10-17 02:39:18,432 INFO [com.advice.controllers.LogInController] - Going to run LogInController initBinder method
+2018-10-17 03:01:19,396 INFO [com.advice.controllers.LogInController] - Going to run Loggincontroller setform method
+2018-10-17 03:01:19,396 INFO [com.advice.controllers.LogInController] - Exiting Loggincontroller setform method
+2018-10-17 03:01:19,396 INFO [com.advice.controllers.LogInController] - Going to run LogInController initBinder method
+2018-10-17 03:01:19,994 INFO [com.advice.controllers.LogInController] - Going to run Loggincontroller captchProcessRequest method
+2018-10-17 03:01:20,012 INFO [com.advice.controllers.LogInController] -  Loggincontroller End of captchProcessRequest method
+2018-10-17 03:18:51,407 INFO [com.advice.controllers.LogInController] - Going to run Loggincontroller setform method
+2018-10-17 03:18:51,407 INFO [com.advice.controllers.LogInController] - Exiting Loggincontroller setform method
+2018-10-17 03:18:51,408 INFO [com.advice.controllers.LogInController] - Going to run LogInController initBinder method
+2018-10-17 03:18:51,964 INFO [com.advice.controllers.LogInController] - Going to run Loggincontroller captchProcessRequest method
+2018-10-17 03:18:51,975 INFO [com.advice.controllers.LogInController] -  Loggincontroller End of captchProcessRequest method
+17-Oct-2018 03:23:01.740 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8888"]
+17-Oct-2018 03:23:01.748 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+17-Oct-2018 03:23:01.749 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+17-Oct-2018 03:23:01.891 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8888"]
+17-Oct-2018 03:23:01.893 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+17-Oct-2018 03:23:01.895 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8888"]
+17-Oct-2018 03:23:01.895 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
